@@ -16,7 +16,13 @@
     </p>
     <button class="btn" id="openOverlay">открыть</button>
   </div>
-  
-  <script src="./dom/modal/modal.js"></script>
+  <script type="html/template" id="overlayTemplate">
+    <div class="modal-container">
+      <a class="close" href="#">x</a>
+      <div class="content"></div>
+    </div>
+  </script>
+ <!-- <script src="./dom/modal/modal.js"></script> -->
+ <script src="./dom/modal/templates.js"></script>
 </body>
 </html>
